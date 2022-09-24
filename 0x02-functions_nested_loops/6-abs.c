@@ -1,8 +1,15 @@
 #include "main.h"
 /**
-*main - start herer
+* _abs - prints the absolute value of a number
+*@i: number targeted
+*Return: returns 0
 */
-int _abs (int ab)
+int _abs(int i)
 {
-return (ab * ((ab >0) - (ab < 0)));
+if (i > 0)
+return (i);
+else if (i < 0)
+return (-i);
+else
+return (0);
 }
