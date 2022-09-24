@@ -1,1 +1,1 @@
-strcat
+work hard
