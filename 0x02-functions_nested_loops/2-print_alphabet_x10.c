@@ -1,20 +1,19 @@
 #include "main.h"
 /**
-* main - check the code
-*
-* Return: Always 0.
+*print_alphabet_x10 - prints alphabet letters
+* ten times
+*desc: The function uses loop to operate
+*Return: no return
 */
 void print_alphabet_x10(void)
 {
-int n, co;
-co = 0;
-while (co < 10)
+int counter = 0;
+int letter;
+while (counter++ <= 9)
 {
-for (n = 'a'; n <= 'z'; n++)
-{
-_putchar(n);
-}
-co++;
-_putchar('\n');
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
+
+_putchar(10);
 }
 }
